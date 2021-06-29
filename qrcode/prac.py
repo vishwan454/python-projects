@@ -9,7 +9,7 @@ qr = qrcode.QRCode(
     border=4,
 )
 
-data = "this is vishwa hello everybody"
+data = "github.com"
 qr.add_data(data)
 qr.make(fit=True)
 
